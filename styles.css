@@ -31,7 +31,7 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .resume {
@@ -228,6 +228,10 @@ body {
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__education-university {
   margin-bottom: 20px;
 }
 
